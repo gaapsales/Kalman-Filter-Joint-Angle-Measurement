@@ -29,6 +29,5 @@ The Figure 7.8 illustrates the comparison between knee angles derived from both 
 
 # References
 
-Ma'arif, Alfian & Iswanto, & Nuryono, Aninditya & Alfian, Rio. (2020). Kalman Filter for Noise Reducer on Sensor Readings. Signal and Image Processing Letters. 1. 11-22. 10.31763/simple.v1i2.2. 
-[1] R. Takeda, G. Lisco, T. Fujisawa, L. Gastaldi, H. Tohyama, and S. Tadano, “Drift removal for improving the accuracy of gait parameters using wearable sensor systems,” Sensors, vol. 14, no. 12, pp. 23230–23247, 2014.
+Ma'arif, Alfian & Iswanto, & Nuryono, Aninditya & Alfian, Rio. (2020). Kalman Filter for Noise Reducer on Sensor Readings. Signal and Image Processing Letters. 1. 11-22. 10.31763/simple.v1i2.2. \\ [1] R. Takeda, G. Lisco, T. Fujisawa, L. Gastaldi, H. Tohyama, and S. Tadano, “Drift removal for improving the accuracy of gait parameters using wearable sensor systems,” Sensors, vol. 14, no. 12, pp. 23230–23247, 2014. \\ J. Teow, “Understanding kalman filters with python- james teow- medium,” Medium, May 2018.
 
