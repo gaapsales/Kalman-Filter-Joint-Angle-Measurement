@@ -1,5 +1,9 @@
-# Kalman-Filter
-Implemention of Kalman Filter to measure knee angles using data from BNO085 9-DoF IMU
+# Disclaimer
+
+This repository is part of a thesis I co-authored, and the implementation of the Kalman filter was developed by me. Feel free to reach out with any questions about this filter.
+I primarily referred to James Teow's article on the Kalman Filter, which is cited in the Reference Section below.
+
+# Brief Introduction
 
 This filter is one of the most used filters when it comes to calibrating an IMU device. Unlike conventional filters like LPF, HPF, and BPF, Kalman Filter is an algorithm used in predicting (or estimating) the next measurement using past measurement. Essentially, it serves as an estimator for predicting any state or component within a signal. The outcome of this estimation resembles the removal of noise from the signal [1]. The Kalman Filter undergoes a prediction and correction step where the filter predicts how noise may affect the future state of the system, and incorporates measurements from sensors to correct its state estimation:
 
@@ -13,7 +17,7 @@ Since this filter is an algorithm being used for estimating the state of a dynam
 
 # Results
 
-One of the sensor fusion algorithms that was implemented is the Kalman filter. The Kalman filter, as mentioned previously, is a state estimator that can extract information from noisy data. It reduces the uncertainty by combining the gyroscope, accelerometer, and magnetometer data to generate a more reliable output. This filter was implemented to both IMU devices located at the thigh, and shank to determine the orientation of these devices during the squat movement. The f iltered data of the two IMU, specifically the pitch angles, was used in determining the knee joint angle
+One of the sensor fusion algorithms that was implemented is the Kalman filter. The Kalman filter, as mentioned previously, is a state estimator that can extract information from noisy data. It reduces the uncertainty by combining the gyroscope, accelerometer, and magnetometer data to generate a more reliable output. This filter was implemented to both IMU devices located at the thigh, and shank to determine the orientation of these devices during the squat movement. The filtered data of the two IMU, specifically the pitch angles, was used in determining the knee joint angle
 
 ![image](https://github.com/user-attachments/assets/9a1332c1-7fe1-4a1a-a090-5be3dc74e1b7)
 
@@ -22,4 +26,9 @@ The Figure 7.8 illustrates the comparison between knee angles derived from both 
 ![image](https://github.com/user-attachments/assets/4ec084b4-882c-4caf-8d74-869b60d09e9e)
 
 ![image](https://github.com/user-attachments/assets/c03f5c78-3f08-45c1-ba81-6b536954c326)
+
+# References
+
+Ma'arif, Alfian & Iswanto, & Nuryono, Aninditya & Alfian, Rio. (2020). Kalman Filter for Noise Reducer on Sensor Readings. Signal and Image Processing Letters. 1. 11-22. 10.31763/simple.v1i2.2. 
+[1] R. Takeda, G. Lisco, T. Fujisawa, L. Gastaldi, H. Tohyama, and S. Tadano, “Drift removal for improving the accuracy of gait parameters using wearable sensor systems,” Sensors, vol. 14, no. 12, pp. 23230–23247, 2014.
 
