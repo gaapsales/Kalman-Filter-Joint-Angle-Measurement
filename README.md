@@ -1,4 +1,4 @@
-# Disclaimer
+# Important
 
 This repository is part of a thesis I co-authored, and the implementation of the Kalman filter was developed by me. Feel free to reach out with any questions about this filter.
 I primarily referred to James Teow's article on the Kalman Filter, which is cited in the Reference Section below.
